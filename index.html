@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/favicon" href="RP.png">
+    <title>RPFlix</title>
+    <link rel="stylesheet" href="rpflix.css" />
+    <text> </text>
+
+</head>
+<body>
+    <div class="nav" id="nav">
+        <img class="nav__logo" src="RPFLIX.png" alt=""/>
+    </div>
+
+    <header class="banner">
+        <div class="banner__contents">
+            <h1 class="banner__title">Rocky Balboa</h1>
+            <div class="banner__buttons">
+                
+                <a href="assistir2.html"> <button class="banner__button">Assistir</button> </a>
+                
+            </div>
+            |<h1 class="banner__description">
+                Aposentado, Rocky trabalha em um restaurante e lamenta a perda de sua amada mulher, Adrian. Com saudade de seus dias de glória, ele pretende voltar ao ringue e aceita o desafio de lutar contra o atual campeão mundial dos pesos pesados, Mason Dixon.
+            </h1>
+        </div>
+        <div class="banner--fadeBottom"></div>
+    </header>
+    <div class="row">
+        <h2>FILMES DE COMÉDIA</h2>
+        <a href="assistir.html">
+        <div class="row__posters">
+         <img class="row__posters row__posterLarge"
+         src="poster1.jpg" alt="" />
+         <img class="row__posters row__posterLarge"
+         src="poster2.jpg" alt="" />
+         <img class="row__posters row__posterLarge"
+         src="poster3.png" alt="" />
+         <img class="row__posters row__posterLarge"
+         src="poster4.png" alt="" />
+         <img class="row__posters row__posterLarge"
+         src="poster5.png" alt="" />
+         <img class="row__posters row__posterLarge"
+         src="poster6.png" alt="" />
+         <img class="row__posters row__posterLarge"
+         src="poster7.png" alt="" />
+         <img class="row__posters row__posterLarge"
+         src="poster8.png" alt="" />
+
+        </div>
+        </a>
+    <div class="row">
+        <h2>SÉRIES</h2>
+        <a href="assistir.html">
+        <div class="row__posters">
+        <img class="row__posters row__posterLarge"
+     src="ani9.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="serie2.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="serie3.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="serie4.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="serie5.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="serie6.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="serie7.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="serie8.png" alt="" />
+    </div>
+    </a>
+    <div class="row">
+        <h2>ANIMAÇÃO</h2>
+        <a href="assistir.html">
+        <div class="row__posters">
+        <img class="row__posters row__posterLarge"
+     src="ani1.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="ani2.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="ani3.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="ani4.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="ani5.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="ani6.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="ani7.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="ani8.png" alt="" />
+    </div>
+</a>
+    <div class="row">
+        <h2>PRA TODA FAMILIA</h2>
+        <a href="assistir.html">
+        <div class="row__posters">
+        <img class="row__posters row__posterLarge"
+     src="serie1.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="serie2.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="serie3.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="serie4.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="serie5.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="serie6.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="serie7.png" alt="" />
+     <img class="row__posters row__posterLarge"
+     src="serie8.png" alt="" />
+    </div>
+    </a>
+</div>
+<script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', ()=>{
+        if(window.scrollY >= 100){
+            nav.classList.add('nav__black');
+        } else {
+            nav.classList.remove('nav__black');
+        }
+    })
+</script>
+</body>
+</html>
